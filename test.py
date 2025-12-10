@@ -144,7 +144,7 @@ class PPOAgent:
         self.values.append(value)
         self.dones.append(done)
 
-
+#Testing PPO interactions
 env = TetrisALE()
 num_actions = env.action_space.n
 model = PPO(num_actions)
